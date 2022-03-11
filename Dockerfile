@@ -10,4 +10,4 @@ RUN yum install python39 -y
 RUN yum install wget -y
 RUN wget https://raw.githubusercontent.com/omkardamame/fakelogger/master/fakelogger.py
 
-ENTRYPOINT python3 test.py
+ENTRYPOINT python3 fakelogger.py
